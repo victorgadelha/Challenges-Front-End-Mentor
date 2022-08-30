@@ -1,0 +1,179 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Big+Shoulders+Display:wght@700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root{
+    --color-card00: hsl(31, 77%, 52%);
+    --color-card01: hsl(184, 100%, 22%);
+    --color-card02: hsl(179, 100%, 13%);
+    --color-letters: hsla(0, 0%, 100%, 0.75); /*Transparent white - paragraphs*/
+    --color-headings: hsl(0, 0%, 95%); /*Very light gray - background, headings, buttons*/
+    --font-head: 'Big Shoulders Display', cursive; /*Weight - 400*/
+    --font-paragraph: 'Lexend Deca', sans-serif; /*Weight - 700*/
+}
+
+body{
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+main{
+    display: flex;
+    margin: auto;
+}
+
+section{
+    height: 600px;
+    width: 20rem;
+
+    padding-left: 3rem;
+}
+
+
+img{
+    padding: 3rem 0 3rem 0;
+}
+
+section h1{
+    color: var(--color-headings);
+
+    font-family: var(--font-head);
+    font-size: 2.5rem;
+
+    text-transform: uppercase;
+    text-align: justify;
+}
+
+section p{
+    color: var(--color-letters);
+    font-family: var(--font-paragraph);
+    line-height: 27px;
+
+    padding: 1.5rem 1.5rem 1.5rem 0;
+    margin-bottom: 7rem;
+
+    max-width: 230px;
+}
+
+button{
+    height: 3rem;
+    width: 9rem;
+
+    border-radius: 5rem;
+    border: none;
+
+    font-family: var(--font-paragraph);
+    text-transform: capitalize;
+    font-weight: bold;
+}
+
+
+.sedans{
+    background-color: var(--color-card00);
+
+    border-top-left-radius: 3%;
+    border-bottom-left-radius: 3%;
+}
+
+.sedans button{
+    color: var(--color-card00);
+    text-transform: capitalize;
+}
+
+.sedans button:hover{
+    cursor: pointer;
+
+    background-color: var(--color-card00);
+    color: white;
+    border: solid 1px white;
+
+    height: 3rem;
+    width: 9rem;
+
+    border-radius: 5rem;
+  
+
+    font-family: var(--font-paragraph);
+    text-transform: capitalize;
+    font-weight: bold;
+}
+
+.suvs{
+    background-color: var(--color-card01);
+}
+
+.suvs button{
+    color: var(--color-card01);
+}
+
+.suvs button:hover{
+    cursor: pointer;
+
+    background-color: var(--color-card01);
+    color: white;
+    border: solid 1px white;
+
+    height: 3rem;
+    width: 9rem;
+
+    border-radius: 5rem;
+  
+
+    font-family: var(--font-paragraph);
+    text-transform: capitalize;
+    font-weight: bold;
+}
+
+.luxury{
+    background-color: var(--color-card02);
+
+    border-top-right-radius: 3%;
+    border-bottom-right-radius: 3%;
+}
+
+.luxury button{
+    color: var(--color-card02);
+}
+
+.luxury button:hover{
+    cursor: pointer;
+
+    background-color: var(--color-card02);
+    color: white;
+    border: solid 1px white;
+
+    height: 3rem;
+    width: 9rem;
+
+    border-radius: 5rem;
+  
+
+    font-family: var(--font-paragraph);
+    text-transform: capitalize;
+    font-weight: bold;
+}
+
+@media screen and (max-width: 840px){
+    main{
+        flex-direction: column;
+        padding: 3rem;
+    }
+    .sedans{
+        border-radius: 2% 2% 0 0;
+    }
+
+    .luxury{
+        border-radius: 0 0 2% 2%;
+    }
+}

@@ -1,0 +1,143 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=Karla:wght@400;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    position: absolute;
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: hsl(204, 43%, 93%); 
+    font-family: 'Karla', sans-serif;
+    line-height: 1.6rem;
+    
+}
+
+main.container{
+    display: flex;    
+    flex-direction: column;
+    justify-content: center;
+    padding: 2rem;
+    margin: 0 auto;
+}
+
+div{
+    width: 375px;
+    height: 275px;
+}
+
+div.card1{
+    background-color: white;
+    border-top-left-radius: 7px;
+    border-top-right-radius: 7px; 
+}
+
+h2.first-card{
+    color: hsl(71, 73%, 54%);
+}
+
+p.main-p{
+    color: hsl(218, 22%, 67%);
+    font-weight: 400;
+    max-width: 22rem;
+}
+
+.double-card{
+    height:100%;
+}
+
+div.card2{
+    background-color: hsl(179, 62%, 43%);
+    color: white; 
+}
+
+div.price{
+    display: flex;
+    height: 15%;
+}
+
+span.price-span{
+    margin: 1.5rem 0 0 2rem;
+    font-size: 2.3rem;
+}
+
+p.price-p{
+    font-size: 1rem;
+    margin-left: -1.2rem;
+}
+
+div.card3{
+    background-color: hsl(180, 29%, 64%);
+    color: white;
+    border-bottom-right-radius: 7px;   
+    border-bottom-left-radius: 7px;  
+}
+
+h1, 
+h2, 
+p, 
+ul{
+    padding: 1.5rem 0 0 2rem;
+}
+
+h1{
+    color: hsl(179, 62%, 43%);
+}
+
+button.sign-up{
+    font-size: 1rem;
+    font-weight: bold;
+    width: 19.5rem;
+    height: 3.2rem;
+    margin: 2rem 0 0 2rem;
+    border-radius: 5px;
+    border: none;
+    background-color: hsl(71, 73%, 54%);
+    color: white;
+    cursor: pointer;
+}
+
+li{
+    list-style: none;
+}
+
+footer{
+    text-align: center;
+    width: 375px;
+}
+
+@media only screen and (min-width: 1440px) {
+    div.card1{
+        height: 200px;
+        width: 100%;
+    }
+    .double-card{
+        display: flex;
+        width: 100%;
+    }
+
+    div.card2{
+       border-bottom-left-radius: 7px;
+    }
+
+    div.card3{
+        border-bottom-left-radius: 0px;
+     }
+     
+    p.main-p{
+        max-width:35rem;
+    }
+
+    footer{
+        text-align: center;
+        width: 750px;
+    }
+}
+
