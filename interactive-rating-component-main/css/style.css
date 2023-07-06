@@ -23,3 +23,27 @@
     --font-regular-weight: 400;
     --font-bold-weight: 700;
 }
+
+body {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+} 
+
+.star-container {
+    display: flex;
+    gap: 0.5rem;
+}
+
+figure {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 2.2rem;
+    height: 2.2rem;
+    background-color: var(--Light-Grey);
+    border-radius: 50%;
+}
+
