@@ -25,18 +25,22 @@
 }
 
 body {
-    width: 100vw;
-    height: 100vh;
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-direction: column;
+    width: 100%;
+    min-height: 100vh;
+    background-color: black;
 } 
 
 .main-container {
+    margin: 0 auto;
     width: 25rem;
     height: 27rem;
     padding: 1.2rem;
-    background-color: var(--Dark-Blue);
+    border-radius: 25px;
+    background-color: var(--Very-Dark-Blue);
 }
 
 .star-container {
@@ -51,7 +55,7 @@ figure {
     align-items: center;
     width: 2.2rem;
     height: 2.2rem;
-    background-color: var(--Light-Grey);
+    background-color: var(--Dark-Blue);
     border-radius: 50%;
 }
 
@@ -66,5 +70,6 @@ h1 {
 }
 
 p {
+    font-size: var(--Font-size-paragraph);
     color: var(--White);
 }
