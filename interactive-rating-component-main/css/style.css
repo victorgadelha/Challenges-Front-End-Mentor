@@ -32,9 +32,17 @@ body {
     align-items: center;
 } 
 
+.main-container {
+    width: 25rem;
+    height: 27rem;
+    padding: 1.2rem;
+    background-color: var(--Dark-Blue);
+}
+
 .star-container {
     display: flex;
     gap: 0.5rem;
+    margin-bottom: 1rem;
 }
 
 figure {
@@ -47,3 +55,16 @@ figure {
     border-radius: 50%;
 }
 
+img {
+    width: .9rem;
+    height: .9rem;
+}
+
+h1 {
+    color: var(--White);
+    margin-bottom: 1rem;
+}
+
+p {
+    color: var(--White);
+}
