@@ -13,8 +13,12 @@
   </style>
 </head>
 <body>
-<div class="rating-container">
+<div class="rating-container hide">
     <div class="star-container">
+        <span class="star"><img src="./images/icon-star.svg" alt=""></span>
+        <span class="star"><img src="./images/icon-star.svg" alt=""></span>
+        <span class="star"><img src="./images/icon-star.svg" alt=""></span>
+        <span class="star"><img src="./images/icon-star.svg" alt=""></span>
         <span class="star"><img src="./images/icon-star.svg" alt=""></span>
     </div>
     <form>
@@ -39,20 +43,23 @@
     <!-- Rating state end -->
   
     <!-- Thank you state start -->
-  
-    <div class="greetings-container hide">
-      <figure>
-        <img src="images/illustration-thank-you.svg" alt="">
+      
+    <div class="greetings-container">
+      <figure class="figure-container">
+        <img class="greetings-image" src="images/illustration-thank-you.svg" alt="">
       </figure>
-      <p>You selected <!-- Add rating here --> out of 5</p>
-      <h1 class="title-greetings-card">
-        Thank you!
-      </h1>
-      <p class="paragraph-greetings-card">
-        We appreciate you taking the time to give a rating. If you ever need more support,
-        don’t hesitate to get in touch!
-      </p>
+        <div class="paragraph-greetings-card-01"><span class="paragraph-greetings">You selected 4 out of 5</span></div>
+        <main class="main-container">
+          <h1 class="title-greetings-card">
+            Thank you!
+          </h1>
+          <p class="paragraph-greetings-card-02">
+            We appreciate you taking the time to give a rating. If you ever need more support,
+            don’t hesitate to get in touch!
+          </p>
+        </main>
     </div>
+    
   
     <!-- Thank you state end -->
 
