@@ -70,6 +70,13 @@ h1 {
 }
 
 p {
+    text-align: justify;
     font-size: var(--Font-size-paragraph);
     color: var(--White);
+}
+
+.rate-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
