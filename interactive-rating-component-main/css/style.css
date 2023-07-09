@@ -95,6 +95,7 @@ h1 {
 }
 
 .rate {
+    cursor: pointer;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -106,7 +107,13 @@ h1 {
     margin-bottom: 2rem;
 }
 
+.rate:hover {
+    color: var(--White);
+    background-color: var(--Light-Grey);
+}
+
 button {
+    cursor: pointer;
     width: 21rem;
     height: 2.5rem;
     text-transform: uppercase;
@@ -114,6 +121,16 @@ button {
     background-color: var(--orange);
     border-radius: 2rem;
 }
+
+button:hover {
+    color: var(--orange);
+    background-color: var(--White);
+}
+
 .hide {
     display: none;
+}
+
+.attribution {
+    color: var(--White);
 }
