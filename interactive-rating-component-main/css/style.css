@@ -34,13 +34,14 @@ body {
     background-color: black;
 } 
 
-.main-container {
+.rating-container {
     padding: 2rem;
     margin: 0 auto;
     width: 25rem;
     height: 25rem;
     border-radius: 25px;
     background-color: var(--Very-Dark-Blue);
+    margin-bottom: 1rem;
 }
 
 .star-container {
@@ -81,7 +82,7 @@ h1 {
     margin-bottom: 1rem;
 }
 
-.paragraph-container {
+.paragraph-main-card {
     max-width: 21rem;
     font-size: var(--Font-size-paragraph);
     font-weight: var(--font-regular-weight);
@@ -127,9 +128,29 @@ button:hover {
     background-color: var(--White);
 }
 
-.hide {
-    display: none;
+.greetings-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 2rem;
+    margin: 0 auto;
+    width: 25rem;
+    height: 25rem;
+    border-radius: 25px;
+    background-color: var(--Very-Dark-Blue);
+    margin-bottom: 1rem;
 }
+
+
+
+
+
+
+
+
+
+
 
 .attribution {
     color: var(--White);
