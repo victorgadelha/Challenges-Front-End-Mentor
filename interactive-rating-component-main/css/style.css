@@ -45,7 +45,7 @@ body {
 
 .star-container {
     display: flex;
-    gap: 0.5rem;
+    gap: 1.5rem;
     margin-bottom: 1rem;
 }
 
@@ -53,25 +53,28 @@ figure {
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 2.5rem;
-    height: 2.5rem;
+    width: 3rem;
+    height: 3rem;
     background-color: var(--Dark-Blue);
     border-radius: 50%;
 }
 
 img {
+
     width: .9rem;
     height: .9rem;
 }
 
 h1 {
+    font-weight: var(--font-bold-weight);
     color: var(--White);
     margin-bottom: 1rem;
 }
 
-p {
+.paragraph-container {
     text-align: justify;
     font-size: var(--Font-size-paragraph);
+    font-weight: var(--font-regular-weight);
     color: var(--White);
     margin-bottom: 2rem;
 }
@@ -80,7 +83,7 @@ p {
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 1rem;
+    gap: 1.5rem;
 }
 
 span {
@@ -94,3 +97,9 @@ span {
     margin-bottom: 2rem;
 }
 
+button {
+    width: 21rem;
+    height: 2.5rem;
+
+    border-radius: 2rem;
+}
