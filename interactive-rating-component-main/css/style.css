@@ -103,7 +103,7 @@ img {
     background-color: var(--Light-Grey);
 }
 
-button {
+#submit-button {
     cursor: pointer;
     width: 21rem;
     height: 2.5rem;
@@ -111,14 +111,11 @@ button {
     color: var(--White);
     background-color: var(--orange);
     border-radius: 2rem;
-    transition: 
 }
 
 button:hover {
     color: var(--orange);
     background-color: var(--White);
-    
-
 }   
 
 .greetings-container {
