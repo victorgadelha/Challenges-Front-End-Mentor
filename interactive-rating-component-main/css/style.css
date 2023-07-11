@@ -111,12 +111,15 @@ button {
     color: var(--White);
     background-color: var(--orange);
     border-radius: 2rem;
+    transition: 
 }
 
 button:hover {
     color: var(--orange);
     background-color: var(--White);
-}
+    
+
+}   
 
 .greetings-container {
     padding: 2rem;
@@ -163,48 +166,22 @@ button:hover {
     color: var(--orange);
     background-color: var(--Dark-Blue);
     border-radius: 2rem;
+    margin-bottom: 2rem;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+.title-greetings-card {
+    color: var(--White);
+    margin-bottom: .5rem;
+}
 
 .paragraph-greetings-card-02 {
     max-width: 20.5rem;
     text-align: center;
+    line-height: 1.5rem;
     font-size: var(--Font-size-paragraph);
     font-weight: var(--font-regular-weight);
     color: var(--Light-Grey);
 }
-
-
-
-
-
 
 
 
