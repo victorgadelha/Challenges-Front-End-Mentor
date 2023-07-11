@@ -180,7 +180,9 @@ button:hover {
     color: var(--Light-Grey);
 }
 
-
+.disabled {
+    display: none;
+}
 
 
 .attribution {
